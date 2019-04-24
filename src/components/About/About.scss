@@ -1,0 +1,23 @@
+.formContainer {
+height: 400px;
+width: 100%;
+}
+
+.mainLeft {
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    width: 45%;
+    height: 350px;
+    color: #000000;
+    float: right;
+}
+
+.mainRight {
+    float: left;
+    height: 400px;
+    width: 50%;
+    background: url("/xt4.jpg") no-repeat center;
+}
