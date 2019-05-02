@@ -35,7 +35,7 @@ class Hero extends Component {
   }
 
   handleApptShow() {
-    this.setState({ apptShow: true });
+    window.open("https://calendly.com/snydzllc/60min");
   }
 
   handleShow() {
@@ -48,7 +48,7 @@ class Hero extends Component {
       <div>
         <header>
         <div className="slogan">
-          <div className="heroHead">Make Buying a Car Simple Again</div>
+          <div className="heroHead">Car Buying Made Easy</div>
           <div>
                 <Button variant="outline-light" onClick={this.handleTradeShow}>
                   Value Your Trade
