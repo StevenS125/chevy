@@ -29,7 +29,7 @@ export default class Tradeform extends Component {
         };
         console.log(fData)
 
-        fetch("https://chevyapp.herokuapp.com/addTrade",
+        fetch("https://chevyapp.herokuapp.com/add/trade",
 {
     headers: {
       'Accept': 'application/json',
