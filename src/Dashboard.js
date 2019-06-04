@@ -8,7 +8,7 @@ import Questions from './components/QuestionsForm/Questions';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 
-class App extends Component {
+class Dashboard extends Component {
   render() {
     return (
       <div className="App">
@@ -18,9 +18,11 @@ class App extends Component {
         <About />
         <Footer />
       </div>
+
+
     );
   }
 }
 
-export default App;
+export default Dashboard;
 

@@ -69,14 +69,6 @@ class Hero extends Component {
           <Modal.Body>
             <Tradeform />
           </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={this.handleTradeClose}>
-              Close
-            </Button>
-            <Button variant="primary" onClick={this.handleTradeClose}>
-              Submit
-            </Button>
-          </Modal.Footer>
         </Modal>
                 {/* Appointment set Modal */}
                 <Modal show={this.state.apptShow} onHide={this.handleApptClose}>
